@@ -1,0 +1,4 @@
+#Fri Jan 05 13:13:44 CET 2018
+base.0=C\:\\Users\\Squiddle\\Desktop\\DevoirPhonegapRattrapage\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20
+path.0=classes.dex
+renamed.0=classes.dex
