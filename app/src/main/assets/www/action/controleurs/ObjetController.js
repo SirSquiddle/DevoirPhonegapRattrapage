@@ -7,7 +7,7 @@ var ObjetController = function()
         return dao.getListeObjet();
     }
 
-    this.addObjet = function( nom, marque, desc)
+    this.ajouterObjet = function( nom, marque, desc)
     {
         dao.ajouterObjet(nom, marque, desc);
     }
