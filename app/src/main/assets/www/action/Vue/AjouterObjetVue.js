@@ -1,4 +1,4 @@
-var AjouterObjetVue = function(dao)
+var AjouterObjetVue = function(controleur)
 
 {
    this.objet = null;
@@ -26,7 +26,7 @@ var AjouterObjetVue = function(dao)
 
 			var description = $("#description").val();
 			
-			dao.ajouterObjet(nom, marque, description);
+			controleur.ajouterObjet(nom, marque, description);
 			
 			window.location.hash = "";
 

@@ -1,4 +1,4 @@
-var ModifierObjetVue = function(dao, objet)
+var ModifierObjetVue = function(controleur, objet)
 
 {
    this.objet = null;
@@ -30,7 +30,7 @@ var ModifierObjetVue = function(dao, objet)
 
 			var description = $("#description").val();
 			
-			dao.modifierObjet(objet.id, nom, marque, description);
+			controleur.modifierObjet(objet.id, nom, marque, description);
 			
 			window.location.hash = "";
 
