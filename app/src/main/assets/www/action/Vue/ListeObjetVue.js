@@ -11,7 +11,7 @@ var ListeObjetVue = function(listeObjet)
 
 		for(var indiceObjet in listeObjet)
 		{
-		    li += "<li><a href='#Objet/" + listeObjet[indiceObjet].id + "'>" + listeObjet[indiceObjet].nom + " | </a> <a href='#modifier-objet/"+listeObjet[indiceObjet].id+"'>Modifier</a> </li>";
+		    li += "<tr><li><td><a href='#Objet/" + listeObjet[indiceObjet].id + "'>" + listeObjet[indiceObjet].nom + "          </a></td><td>      <a class='btn' href='#modifier-objet/"+listeObjet[indiceObjet].id+"'>Modifier</a> <br /><br /></td></li></tr>";
 		}
 
 		htmlListeObjet.html(li);
